@@ -1,0 +1,33 @@
+/* Desktop lớn */
+@media (max-width: 1199.98px) {
+    /* CSS cho màn lớn */
+  }
+  
+  /* Laptop, desktop thường */
+  @media (max-width: 991.98px) {
+    /* CSS cho laptop, desktop thường */
+  }
+  
+  /* Tablet ngang */
+  @media (max-width: 767.98px) {
+    /* CSS cho tablet ngang */
+  }
+  
+  /* Tablet dọc */
+  @media (max-width: 575.98px) {
+    /* CSS cho tablet dọc */
+  }
+  
+  /* Mobile */
+  @media (max-width: 575.97px) {
+    /* CSS cho điện thoại */
+  }
+  
+  /* iPhone XS và các điện thoại nhỏ hơn */
+  @media (max-width: 367.98px) {
+    /* CSS dành riêng cho iPhone XS và các điện thoại nhỏ hơn */
+  }
+
+
+  /* 475 */
+  
