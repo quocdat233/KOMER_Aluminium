@@ -47,20 +47,20 @@ document.addEventListener("DOMContentLoaded", () => {
   
 
   const swiper = new Swiper(".mySwiper", {
-    slidesPerView: 5,
+    slidesPerView: 1,  
     spaceBetween: 3,
     loop: true,
-    speed: 3000, 
+    speed: 2000, 
     autoplay: {
-      delay: 30,
+      delay: 0,
       disableOnInteraction: false,
     },
     freeMode: true, 
     freeModeMomentum: false,
     grabCursor: true,
     breakpoints: {
-      768: { slidesPerView: 5 },
-      480: { slidesPerView: 2 },
+      480: { slidesPerView: 2 },   
+      768: { slidesPerView: 5 },   
     },
   });
   
