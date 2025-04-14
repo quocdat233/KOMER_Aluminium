@@ -965,7 +965,7 @@
     opacity: 0;
     width: 100%;
     height: 390px;
-    max-height: 350px;
+    max-height: 500px;
     background-image: url(../images/jack-ma-png.png);
     background-position: center;
     background-size: cover;
@@ -980,7 +980,7 @@
 }
 
 .card1:hover .hover-image-spider {
-    top: 25%;
+    top: 40%;
     opacity: 1;
 }
 
@@ -1638,7 +1638,28 @@
   }
   
   /* Mobile: 320px - 575.98px */
+  @media (max-width: 470.98px) {
+
+    .swiper-slide{
+        padding: 10px;
+    }
+    .footer .inner-container{
+        margin-left: 10px !important;
+    }
+    .footer .inner-container h2{
+        font-size: 20px;
+    }
   @media (max-width: 575.98px) {
+ 
+    
+  
+    
+    
+      .card-footer .btn-circle {
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+      }
     .section-one {
       flex-direction: column;
     }

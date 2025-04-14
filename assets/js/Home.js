@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
 
   const swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,  
+    slidesPerView: 1,   
     spaceBetween: 3,
     loop: true,
     speed: 2000, 
@@ -64,5 +64,17 @@ document.addEventListener("DOMContentLoaded", () => {
     },
   });
   
+
+
+const teamSwiper = new Swiper(".teamSwiper", {
+  slidesPerView: 1,
+  spaceBetween: 20,
+  loop: true,
+  autoplay: {
+    delay: 3500,
+    disableOnInteraction: false,
+  },
+  grabCursor: true,
+});
 
   
